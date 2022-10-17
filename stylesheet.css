@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1260px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.header {
+  padding: 15px 0;
+  background-color: darkred;
+}
+.header .navlinks {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header .navlinks .list-items {
+  display: flex;
+  -moz-column-gap: 15px;
+       column-gap: 15px;
+  list-style: none;
+}
+.header .navlinks .list-items .list-items-style {
+  color: aliceblue;
+  font-size: 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.wrapper .hero-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.wrapper .hero-main .hero-head {
+  font-size: 45px;
+  color: darkred;
+}
+.wrapper .hero-main .hero-para {
+  font-size: 20px;
+  color: burlywood;
+}
+
+.aboutus {
+  padding: 30px 0 0;
+  background-color: burlywood;
+}
+.aboutus .education-and-experience {
+  text-align: center;
+  font-size: 65px;
+  color: darkred;
+}
+.aboutus .about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 45px;
+}
+.aboutus .about .about-us-emoji {
+  max-width: 525px;
+}
+.aboutus .about .about-description {
+  margin-left: 100px;
+  padding-top: 35px;
+  margin-bottom: 30px;
+}
+.aboutus .about .about-description .about-education {
+  font-size: 35px;
+  color: darkred;
+  margin-bottom: 30px;
+}
+.aboutus .about .about-description .about-education .about-info {
+  font-size: 30px;
+  color: aliceblue;
+}
+.aboutus .about .about-description .about-education .about-duration {
+  font-size: 30px;
+  color: aliceblue;
+}/*# sourceMappingURL=stylesheet.css.map */

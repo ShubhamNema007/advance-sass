@@ -1,0 +1,85 @@
+@import "./variable.scss";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1260px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+.header {
+  padding: 15px 0;
+  background-color: $red-color;
+  .navlinks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .list-items {
+      display: flex;
+      column-gap: 15px;
+      list-style: none;
+      .list-items-style {
+        color: $white-color;
+        font-size: 20px;
+        text-decoration: none;
+        text-transform: uppercase;
+      }
+    }
+  }
+}
+.wrapper {
+  .hero-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .hero-head {
+      font-size: 45px;
+      color: $red-color;
+    }
+    .hero-para {
+      font-size: 20px;
+      color: $burlywood;
+    }
+  }
+}
+.aboutus {
+  padding: 30px 0 0;
+  background-color: $burlywood;
+  .education-and-experience {
+    text-align: center;
+    font-size: 65px;
+    color: $red-color;
+  }
+  .about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 45px;
+    .about-us-emoji {
+      max-width: 525px;
+    }
+    .about-description {
+      margin-left: 100px;
+      padding-top: 35px;
+      margin-bottom: 30px;
+      .about-education {
+        font-size: 35px;
+        color: $red-color;
+        margin-bottom: 30px;
+        .about-info {
+          font-size: 30px;
+          color: $white-color;
+        }
+        .about-duration {
+          font-size: 30px;
+          color: $white-color;
+        }
+      }
+    }
+  }
+}
